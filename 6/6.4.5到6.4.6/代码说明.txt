@@ -1,0 +1,9 @@
+运行本代码方法：
+1.设置环境变量名env，值为test_env,否则会报错KeyError: 'env'
+2.设置环境变量名token，值为一个真实的github user personal access token，否则而会报错KeyError: 'token'
+3.设置pythonpath，把要用到的python 模块所在的目录加入到pythonpath中去。否则报错找不到module。
+4.这里要用的module有：TUGitHubAPI的github模块，所以把TUGitHubAPI目录加入pythonpath
+5.还要用TUGitHubAPITest的Environment模块，所以把TUGitHubAPITest的libraries目录加入pythonpath
+6.检查代码中的xxx，改成真实数据。
+7.运行入口：TUGitHubAPITest/api_test/test_01_repos.py
+8.另一个运行入口：TUGitHubAPITest/scenario_test/test_01_repos_scenario.py
